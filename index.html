@@ -105,12 +105,54 @@
          border-radius: 10px;
      }
      @media only screen and (max-width:750px){
-         #mentors{
-             flex-direction: column;
-             justify-content: center;
-             align-items: center;
-         }
-     }
+        #navbar{
+                 flex-direction: column;
+                 align-items: center;
+             }   
+             #navbar::before{
+                 display: none;
+             }
+             #navbar{
+                 background-color: orange;
+                 height: 80px;
+             }
+             #navbar ul li{
+                 margin: -33px -17px 0px -21px;
+                 padding: 0px 26px 0px 19px;
+             }
+             #logo{
+                width: 32%;
+                height: 79px;
+             }
+             #navbar{
+                 overflow: hidden;
+             }
+             #about-parampara{
+                 display: flex;
+                 flex-wrap: wrap;
+             }
+             #navbar ul{
+                 padding:13px 0px 0px 0px;
+             }
+             #navbar ul li{
+                 font-size: 1rem;
+             }
+             #mentors{
+                 flex-direction: column;
+                 align-items: center;
+             }
+             #mentor-1, #mentor-2 {
+                    margin: 10px 10px;
+                    width: 100%;
+            }
+            #team{
+                flex-direction: column;
+            }
+            #team-1, #team-2{
+                margin: 10px 10px;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
