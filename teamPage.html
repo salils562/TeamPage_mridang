@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+     *{
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            top: 0px;
+            font-weight: bold;
+        }
+        /* nav bar*/
+        #navbar::before{
+            content: "";
+            position: absolute;
+            background-color:  rgb(255 174 52);
+            border-radius: 10px;
+            height: 100px;
+            width: 100%;
+            z-index:-1;
+            opacity: 0.9;
+        }
+        #navbar{
+            display: flex;
+            position: sticky;
+        }
+        #logo{
+         width: 11%;
+         height: 100px;
+     }
+     #navbar ul{
+         display: flex;
+         padding: 26px 0px 0px 0px;
+         list-style: none;
+     }
+     .items{
+         color: rgb(255 174 52);
+         font-size:1.4rem;
+         padding:8px 21px;
+         font-weight: bold;
+     }
+     .items a{
+         text-decoration: none;
+         color: black;
+
+     }
+     #mentors{
+         border: 5px solid rgb(0, 0, 0);
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         text-align: center;
+         margin:30px 30px;
+     }
+     #mentor-1,#mentor-2{
+         margin:10px 10px;
+         width:40%;
+     }
+     .mens{
+         margin:30px 10px;
+     }
+     #team{
+         border: 5px solid rgb(0, 0, 0);
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         margin:30px 30px;
+     }
+     #team-1, #team-2{
+         margin: 10px 10px;
+         width: 40%;
+     }
+    
+     /*
+     team images CSS
+     */
+     .id-imgs{
+         width: 45%;
+         height: 160px;
+         border-radius: 150px;
+     }
+     h1{
+         margin:78px 0px 42px 0px;
+     }
+     .myhead,h2{
+         text-align: center;
+     }
+     .email{
+         color:rgba(26, 25, 68, 0.829);
+         font-size: 1.1rem;
+     }
+     #hre{
+         font-size: 2.8rem;
+     }
+     .button{
+         width:25%;
+         height: 30px;
+         margin:20px 20px;
+         border-radius: 10px;
+     }
+     @media only screen and (max-width:750px){
+         #mentors{
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+         }
+     }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images\logo.jpg" id="logo">
+        <ul>
+            <li class="items"><a href="#" class="acher">Home</a></li>
+            <li class="items"><a href="#" class="acher">Traditional-wear</a></li>
+            <li class="items"><a href="#" class="acher">About us</a></li>
+            <li class="items"><a href="#" class="acher">Contact us</a></li>
+        </ul>
+    </nav>
+    <h1 class="myhead" id="hre">Welcome To Our Team</h1>
+    <h2 class="myhead">Our-mentors</h2>
+    <section id="mentors">
+        <div id="mentor-1">
+        <div class="mens">
+            <img src="images/tanmay.jpeg" id="tanmay" class="id-imgs">
+            <h2>Tanmay rajawat</h2>
+            <p class="title">Team-mentor</p>
+            <p class="title">(Cheif-Application developer)</p>
+            <p>UIT-RGPV,<br>2nd year(CSE)</p>
+            <p class="email">tanmayrajawat34@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images/vardhan.jpg" id="vardhan" class="id-imgs">
+            <h2>Vardhan Tapdiya</h2>
+            <p class="title">Team-mentor</p>
+            <p class="title">(Cheif-Marketing management)</p>
+            <p>UIT-RGPV,<br>2nd year(IT)</p>
+            <p class="email">VardhanTapdiya465@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+        <div id="mentor-2">
+        <div class="mens">
+            <img src="images/khushi.jpeg" id="khushi" class="id-imgs">
+            <h2>khushi Marothi</h2>
+            <p class="title">Team-mentor</p>
+            <p class="title">(Cheif-Web developer)</p>
+            <p>UIT-RGPV,<br>2nd year</p>
+            <p class="email">MarothiKhushi432@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images/mayank.jpg" id="Manyak" class="id-imgs">
+            <h2>Manyak Tripathi</h2>
+            <p class="title">(Cheif-Media & Content)</p>
+            <p>UIT-RGPV,<br>3rd year</p>
+            <p class="email">mayankTripathi345@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+
+    </section>
+     <h2>Our development team</h2>
+    <section id="team">
+        <div id="team-1">
+        <div class="mens">
+            <img src="images/manish.jpg" id="manish" class="id-imgs">
+            <h2>Manish Singh</h2>
+            <p class="title">Web developer</p>
+            <p>UIT-RGPV,<br>1nd-year(CSE)</p>
+            <p class="email">ManishSingh334@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images/salil.JPG" id="salil" class="id-imgs">
+            <h2>Salil sharma</h2>
+            <p class="title">Web developer</p>
+            <p>UIT-RGPV,<br>2nd-year(IT)</p>
+            <p class="email">salilsharma562@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images\kanishk.jpg" id="Kanisk" class="id-imgs">
+            <h2>Kanishk Shrivastav</h2>
+            <p class="title">Application developer</p>
+            <p>UIT-RGPV,<br>2nd year(Civil)</p>
+            <p class="email">Kaniskk4645@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+        <div id="team-2">
+        <div class="mens">
+            <img src="images/yashwari.jpeg" id="yashwari" class="id-imgs">
+            <h2>Yashwari Ahirwar</h2>
+            <p class="title">Marketing Manager(CSE)</p>
+            <p>UIT-RGPV,<br>1st year</p>
+            <p class="email">YashiwariAhir896@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images/abhijeet.jpg" id="Abhineet" class="id-imgs">
+            <h2>Abhineet Baghel</h2>
+            <p class="title">Media & Content</p>
+            <p>UIT-RGPV,<br>1st year(EX)</p>
+            <p class="email">baghelabhicoc7@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        <div class="mens">
+            <img src="images/parijat.jpg" id="parijat" class="id-imgs">
+            <h2>Parijat Sahu</h2>
+            <p class="title">Graphic Desingner</p>
+            <p>UIT-RGPV,<br>1st year</p>
+            <p class="email">ParijatSahu553@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
